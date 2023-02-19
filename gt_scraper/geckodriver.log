@@ -2920,3 +2920,1043 @@ JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yo/l/makehaste_
 1676752560766	Marionette	INFO	Stopped listening on port 36021
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 1676752562344	Marionette	INFO	Stopped listening on port 41583
+1676760776898	geckodriver	INFO	Listening on 127.0.0.1:44571
+1676760777393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54401" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuI7Nuu"
+[GFX1-]: glxtest: libEGL missing
+1676760778159	Marionette	INFO	Marionette enabled
+1676760778162	Marionette	INFO	Listening on port 42179
+Read port: 42179
+WebDriver BiDi listening on ws://127.0.0.1:54401
+1676760778309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuI7Nuu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54401/devtools/browser/6a42add9-afeb-4f38-9af3-d31de4ed6584
+1676760788063	Marionette	INFO	Stopped listening on port 42179
+1676760795911	geckodriver	INFO	Listening on 127.0.0.1:35193
+1676760796414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54983" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTy4J6y"
+[GFX1-]: glxtest: libEGL missing
+1676760796879	Marionette	INFO	Marionette enabled
+1676760796882	Marionette	INFO	Listening on port 38159
+Read port: 38159
+WebDriver BiDi listening on ws://127.0.0.1:54983
+1676760796984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTy4J6y/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54983/devtools/browser/d17b62a4-901f-406d-be69-16436754eda5
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1676760832459	Marionette	INFO	Stopped listening on port 38159
+1676760835778	geckodriver	INFO	Listening on 127.0.0.1:38421
+1676760836281	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilei3tft8"
+[GFX1-]: glxtest: libEGL missing
+1676760836719	Marionette	INFO	Marionette enabled
+1676760836722	Marionette	INFO	Listening on port 46667
+Read port: 46667
+WebDriver BiDi listening on ws://127.0.0.1:35977
+1676760836828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei3tft8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35977/devtools/browser/ae27e758-8efe-44f7-ba02-0c9fb1318163
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676760870007	Marionette	INFO	Stopped listening on port 46667
+1676760910119	geckodriver	INFO	Listening on 127.0.0.1:46509
+1676760910621	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51581" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileipTGCV"
+[GFX1-]: glxtest: libEGL missing
+1676760911088	Marionette	INFO	Marionette enabled
+1676760911091	Marionette	INFO	Listening on port 33273
+Read port: 33273
+WebDriver BiDi listening on ws://127.0.0.1:51581
+1676760911186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileipTGCV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51581/devtools/browser/9672f3ce-1079-4557-bb54-6a1e814b26fc
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676761749398	geckodriver	INFO	Listening on 127.0.0.1:52113
+1676761749901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEnsYbI"
+[GFX1-]: glxtest: libEGL missing
+1676761750323	Marionette	INFO	Marionette enabled
+1676761750326	Marionette	INFO	Listening on port 32923
+WebDriver BiDi listening on ws://127.0.0.1:36735
+Read port: 32923
+1676761750511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEnsYbI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36735/devtools/browser/205c81e2-f416-45e0-a568-eaa237ea4554
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1676761760826	Marionette	INFO	Stopped listening on port 33273
+1676761798195	geckodriver	INFO	Listening on 127.0.0.1:38887
+1676761798698	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33873" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileek5bW8"
+[GFX1-]: glxtest: libEGL missing
+1676761799119	Marionette	INFO	Marionette enabled
+1676761799122	Marionette	INFO	Listening on port 33209
+WebDriver BiDi listening on ws://127.0.0.1:33873
+Read port: 33209
+1676761799299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileek5bW8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33873/devtools/browser/3ae83e7b-edce-46d8-9c3e-1b3369476d4e
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676761891461	geckodriver	INFO	Listening on 127.0.0.1:58105
+1676761891964	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQfrbY7"
+[GFX1-]: glxtest: libEGL missing
+1676761892374	Marionette	INFO	Marionette enabled
+1676761892377	Marionette	INFO	Listening on port 35859
+WebDriver BiDi listening on ws://127.0.0.1:39901
+Read port: 35859
+1676761892594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQfrbY7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39901/devtools/browser/539f5ea0-58dd-4781-a8c0-0363de28962c
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1676761900188	Marionette	INFO	Stopped listening on port 35859
+1676761901405	Marionette	INFO	Stopped listening on port 32923
+1676761905882	Marionette	INFO	Stopped listening on port 33209
+1676761908319	geckodriver	INFO	Listening on 127.0.0.1:41783
+1676761908822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerbgRe6"
+[GFX1-]: glxtest: libEGL missing
+1676761909248	Marionette	INFO	Marionette enabled
+1676761909251	Marionette	INFO	Listening on port 44065
+WebDriver BiDi listening on ws://127.0.0.1:59515
+Read port: 44065
+1676761909427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerbgRe6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59515/devtools/browser/50a683ba-0c1c-479d-9264-79ab4b470038
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676762002143	Marionette	INFO	Stopped listening on port 44065
+1676762029906	geckodriver	INFO	Listening on 127.0.0.1:56125
+1676762030409	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40503" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileS62VSv"
+[GFX1-]: glxtest: libEGL missing
+1676762030870	Marionette	INFO	Marionette enabled
+1676762030873	Marionette	INFO	Listening on port 41359
+Read port: 41359
+WebDriver BiDi listening on ws://127.0.0.1:40503
+1676762030972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS62VSv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40503/devtools/browser/d1b52ebb-0c0b-4f88-bd8b-2f0f75cf8394
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676762561115	geckodriver	INFO	Listening on 127.0.0.1:56485
+1676762561618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45795" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVImzUR"
+[GFX1-]: glxtest: libEGL missing
+1676762562015	Marionette	INFO	Marionette enabled
+1676762562018	Marionette	INFO	Listening on port 45003
+Read port: 45003
+WebDriver BiDi listening on ws://127.0.0.1:45795
+1676762562112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVImzUR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45795/devtools/browser/3d91c939-6ce9-4f09-acce-c143fc66b212
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676762704482	geckodriver	INFO	Listening on 127.0.0.1:41519
+1676762704985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFOBnF8"
+[GFX1-]: glxtest: libEGL missing
+1676762705394	Marionette	INFO	Marionette enabled
+1676762705398	Marionette	INFO	Listening on port 43437
+WebDriver BiDi listening on ws://127.0.0.1:38631
+Read port: 43437
+1676762705612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFOBnF8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38631/devtools/browser/466885ca-ca94-441a-bb10-addd71c7fc51
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676763022823	geckodriver	INFO	Listening on 127.0.0.1:33587
+1676763023326	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52921" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilee6k6cK"
+[GFX1-]: glxtest: libEGL missing
+1676763023740	Marionette	INFO	Marionette enabled
+1676763023743	Marionette	INFO	Listening on port 35907
+WebDriver BiDi listening on ws://127.0.0.1:52921
+Read port: 35907
+1676763023955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee6k6cK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52921/devtools/browser/9dac3522-190e-47a0-99bb-af67c1c3b951
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1676763031602	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1676763031603	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1676763031603	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1007))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal6442450947/pagestyle23 (resource://devtools/server/actors/page-style.js:1007:5)", "resource://devtools/shared/protocol/Front.js", 383))
+1676763387030	geckodriver	INFO	Listening on 127.0.0.1:43899
+1676763387533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51605" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAHIxKd"
+[GFX1-]: glxtest: libEGL missing
+1676763387927	Marionette	INFO	Marionette enabled
+1676763387930	Marionette	INFO	Listening on port 43937
+Read port: 43937
+WebDriver BiDi listening on ws://127.0.0.1:51605
+1676763388031	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAHIxKd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51605/devtools/browser/8921f32e-55d2-497d-9ba3-d37c8f675ccd
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+1676763499866	geckodriver	INFO	Listening on 127.0.0.1:33357
+1676763500369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45167" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNFLu0I"
+[GFX1-]: glxtest: libEGL missing
+1676763500772	Marionette	INFO	Marionette enabled
+1676763500775	Marionette	INFO	Listening on port 32957
+WebDriver BiDi listening on ws://127.0.0.1:45167
+Read port: 32957
+1676763500991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNFLu0I/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45167/devtools/browser/876c27eb-cc7d-41b3-afd3-db7058cf9c63
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676763565967	geckodriver	INFO	Listening on 127.0.0.1:42199
+1676763566470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSnR8rz"
+[GFX1-]: glxtest: libEGL missing
+1676763566894	Marionette	INFO	Marionette enabled
+1676763566897	Marionette	INFO	Listening on port 33297
+WebDriver BiDi listening on ws://127.0.0.1:51179
+Read port: 33297
+1676763567071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSnR8rz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51179/devtools/browser/2e8ec7d2-770c-40be-8875-1b22b9386d84
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1676763570483	Marionette	INFO	Stopped listening on port 32957
+1676763571283	Marionette	INFO	Stopped listening on port 43937
+1676763572551	Marionette	INFO	Stopped listening on port 35907
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676763573447	Marionette	INFO	Stopped listening on port 43437
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #422; visit https://reactjs.org/docs/error-decoder.html?invariant=422 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1676763574825	Marionette	INFO	Stopped listening on port 45003
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676763963829	geckodriver	INFO	Listening on 127.0.0.1:55489
+1676763964332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51193" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHWSxxV"
+[GFX1-]: glxtest: libEGL missing
+1676763964743	Marionette	INFO	Marionette enabled
+1676763964746	Marionette	INFO	Listening on port 40927
+WebDriver BiDi listening on ws://127.0.0.1:51193
+Read port: 40927
+1676763964961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHWSxxV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51193/devtools/browser/9992130f-1524-4a2b-ba15-547e8bf1479d
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676763998676	geckodriver	INFO	Listening on 127.0.0.1:53093
+1676763999179	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLmY2ga"
+[GFX1-]: glxtest: libEGL missing
+1676763999595	Marionette	INFO	Marionette enabled
+1676763999598	Marionette	INFO	Listening on port 34695
+WebDriver BiDi listening on ws://127.0.0.1:41095
+Read port: 34695
+1676763999780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLmY2ga/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41095/devtools/browser/89fe5b3d-4960-411d-b04d-f84222969683
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676764294703	geckodriver	INFO	Listening on 127.0.0.1:50145
+1676764295206	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8EzJy8"
+[GFX1-]: glxtest: libEGL missing
+1676764295621	Marionette	INFO	Marionette enabled
+1676764295624	Marionette	INFO	Listening on port 45019
+WebDriver BiDi listening on ws://127.0.0.1:58611
+Read port: 45019
+1676764295805	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8EzJy8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58611/devtools/browser/0f104cf6-71c9-492c-a5f0-9eaaaf6be6bb
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.error: "Unable to find target with innerWindowId:6442450947"
+console.error: "Unable to find target with innerWindowId:6442450947"
+console.error: "Unable to find target with innerWindowId:6442450947"
+1676764357602	Marionette	INFO	Stopped listening on port 34695
+1676764358616	Marionette	INFO	Stopped listening on port 45019
+1676764359996	Marionette	INFO	Stopped listening on port 33297
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676767964724	geckodriver	INFO	Listening on 127.0.0.1:48941
+1676767965226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48003" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRLYblf"
+[GFX1-]: glxtest: libEGL missing
+1676767965631	Marionette	INFO	Marionette enabled
+1676767965634	Marionette	INFO	Listening on port 41577
+WebDriver BiDi listening on ws://127.0.0.1:48003
+Read port: 41577
+1676767965848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRLYblf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48003/devtools/browser/f25060bd-f96e-43ec-9638-fb66c3a15855
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676768423343	Marionette	INFO	Stopped listening on port 40927
+1676768424670	Marionette	INFO	Stopped listening on port 41577
+1676768724137	geckodriver	INFO	Listening on 127.0.0.1:38723
+1676768724640	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60429" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSaTN6q"
+[GFX1-]: glxtest: libEGL missing
+1676768725044	Marionette	INFO	Marionette enabled
+1676768725047	Marionette	INFO	Listening on port 33487
+WebDriver BiDi listening on ws://127.0.0.1:60429
+Read port: 33487
+1676768725266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSaTN6q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60429/devtools/browser/df9ed8c0-d500-4388-9f96-1445b9bf4124
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3i61F4/yd/l/makehaste_jhash/PjgOG2TDnbewcI-aqOydKVBf2sR-Hu85Mbka_E1fwAsQ1Xpl4Sm7F7zwoh1R1fSVUyGOyme0M-P4D9Pj4nTCM_vMe2ZnM4EufSm2YPyP1AEu_GTKj3cJuetpDzoxnU5Oyt0BVoFYn7fpsAL-hGIjF8B-rs.js?_nc_x=6Fu5YJSc13F, line 448: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676769213788	geckodriver	INFO	Listening on 127.0.0.1:52969
+1676769214290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilevUbM2M"
+[GFX1-]: glxtest: libEGL missing
+1676769214701	Marionette	INFO	Marionette enabled
+1676769214704	Marionette	INFO	Listening on port 40257
+WebDriver BiDi listening on ws://127.0.0.1:44437
+Read port: 40257
+1676769214917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevUbM2M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44437/devtools/browser/85d5c57c-5dd1-42e8-8070-2219e394c19d
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1676769223918	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://m.facebook.com."
+1676769234277	geckodriver	INFO	Listening on 127.0.0.1:49295
+1676769234779	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileL3rPRM"
+[GFX1-]: glxtest: libEGL missing
+1676769235193	Marionette	INFO	Marionette enabled
+1676769235196	Marionette	INFO	Listening on port 33629
+WebDriver BiDi listening on ws://127.0.0.1:54633
+Read port: 33629
+1676769235381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL3rPRM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54633/devtools/browser/4893e3e9-a037-48c9-ab74-79421f937a24
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676769265650	geckodriver	INFO	Listening on 127.0.0.1:60139
+1676769266153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54417" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWrSLVs"
+[GFX1-]: glxtest: libEGL missing
+1676769266575	Marionette	INFO	Marionette enabled
+1676769266578	Marionette	INFO	Listening on port 35541
+WebDriver BiDi listening on ws://127.0.0.1:54417
+Read port: 35541
+1676769266760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWrSLVs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54417/devtools/browser/f838f944-f6e6-4291-9889-07e2358e6b2f
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+NVD3D10: CPU cyclestats are disabled on client virtualization 
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=Ij3Wp8lg5Kz, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yc/l/en_US/62ORkRdLvLv.js?_nc_x=Ij3Wp8lg5Kz, line 22: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iPDG4/yn/l/makehaste_jhash/Zm94TtgvyCX.js?_nc_x=6Fu5YJSc13F, line 155: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/Ib90vcVxYzI.js?_nc_x=6Fu5YJSc13F, line 43: Failed to create WebGL context: WebGL creation failed: 
+* tryNativeGL ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1676769330086	Marionette	INFO	Stopped listening on port 35541
