@@ -13,8 +13,8 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 options = Options()
 options.add_argument("--headless")
-driver =webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
-#driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+# driver =webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
+driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 wait = WebDriverWait(driver, 10)
 
 
@@ -29,16 +29,40 @@ def login():
     driver.get(f'https://m.facebook.com/groups/200453430055131')
 
 
+def lookupXpath(parent, path):
+    try:
+        return parent.find_element('xpath', path)
+    except:
+        return None
+
+
+def lookupNextSection(next_section):
+    try:
+        if not next_section:
+            return None
+        return next_section.get_attribute('id') == "m_more_item"
+    except:
+        None
+
 def loadPage():
     try:
+        group_story_container = driver.find_element('xpath', '//*[@id="m_group_stories_container"]')
         last_height = driver.execute_script("return document.body.scrollHeight")
         pages_loaded = 0
 
         while True:
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(6)
-            new_height = driver.execute_script("return document.body.scrollHeight")
 
+            next_section = lookupXpath(group_story_container, './div')
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+            while lookupNextSection(next_section):
+                next_section = lookupXpath(group_story_container, './div')
+
+            next_group_story_container = lookupXpath(group_story_container, './/*[@id="m_group_stories_container"]')
+            group_story_container = next_group_story_container
+
+            new_height = driver.execute_script("return document.body.scrollHeight")
+    
             if new_height == last_height:
                 break
 
@@ -89,12 +113,6 @@ def retrivePosts():
     
     return posts_post_postin
 
-
-def lookupXpath(partent, path):
-    try:
-        return partent.find_element('xpath', path)
-    except:
-        return None
 
 
 def writeJson(posts):
