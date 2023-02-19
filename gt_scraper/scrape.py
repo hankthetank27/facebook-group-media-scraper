@@ -60,13 +60,13 @@ def loadPagesAndParse():
             while lookupNextSection(next_section):
                 next_section = lookupXpath(group_stories_container, './div')
 
-            group_stories_container = lookupXpath(group_stories_container, './/*[@id="m_group_stories_container"]')
             new_height = driver.execute_script("return document.body.scrollHeight")
     
             if new_height == last_height:
                 break
 
             last_height = new_height
+            group_stories_container = lookupXpath(group_stories_container, './/*[@id="m_group_stories_container"]')
             pages_loaded += 1
 
             print('pages loaded: ', pages_loaded)
