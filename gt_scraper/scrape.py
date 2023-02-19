@@ -1,4 +1,3 @@
-import time
 import os
 import json
 from dotenv import load_dotenv
@@ -44,23 +43,24 @@ def lookupNextSection(next_section):
     except:
         None
 
-def loadPage():
+def loadPagesAndParse():
     try:
-        group_story_container = driver.find_element('xpath', '//*[@id="m_group_stories_container"]')
+        group_stories_container = driver.find_element('xpath', '//*[@id="m_group_stories_container"]')
         last_height = driver.execute_script("return document.body.scrollHeight")
         pages_loaded = 0
 
         while True:
 
-            next_section = lookupXpath(group_story_container, './div')
+            section_data = retrivePosts(group_stories_container)
+            print(section_data)
+
+            next_section = lookupXpath(group_stories_container, './div')
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
             while lookupNextSection(next_section):
-                next_section = lookupXpath(group_story_container, './div')
+                next_section = lookupXpath(group_stories_container, './div')
 
-            next_group_story_container = lookupXpath(group_story_container, './/*[@id="m_group_stories_container"]')
-            group_story_container = next_group_story_container
-
+            group_stories_container = lookupXpath(group_stories_container, './/*[@id="m_group_stories_container"]')
             new_height = driver.execute_script("return document.body.scrollHeight")
     
             if new_height == last_height:
@@ -75,11 +75,12 @@ def loadPage():
         print(e)
 
 
-def retrivePosts():
+def retrivePosts(group_stories_container):
 
-    print('parsing posts...')
+    if not group_stories_container:
+        return
 
-    posts = driver.find_element(By.ID, 'm_group_stories_container').find_elements(By.TAG_NAME, 'article')
+    posts = group_stories_container.find_elements(By.TAG_NAME, 'article')
     posts_post_postin = []
 
     for post in posts:
@@ -114,48 +115,12 @@ def retrivePosts():
     return posts_post_postin
 
 
-
 def writeJson(posts):
     print('writing posts...')
     with open('gt_posts.json', 'w') as f:
         json.dump(posts, f)
 
 
-def main():
-    login()
-    loadPage()
-    writeJson(retrivePosts())
-    print('done!')
-
-main()
-
-
-#!/usr/bin/env python3
-# from selenium import webdriver
-# from selenium.common.exceptions import *
-# from selenium.webdriver.chrome.options import Options
-# from webdriver_manager.chrome import ChromeDriverManager
-# import time
-
-# chrome_options = Options()
-# chrome_options.add_argument("--headless")
-# driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
-
-# driver.get(f"https://www.facebook.com/groups/120778514747417")
-# driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-# time.sleep(1)
-# posts = driver.find_elements_by_css_selector("div[role='article']")
-# for post in posts:
-#     labelled_by = post.get_attribute("aria-labelledby")
-#     print(labelled_by)
-#     label = driver.find_element_by_id(labelled_by).text
-#     print(label)
-#     desc_by = post.get_attribute("aria-describedby").split()
-#     for desc_elem in desc_by:
-#         print(desc_elem)
-#         try:
-#             label = driver.find_element_by_id(desc_elem).text
-#             if label:
-#                 print(label.strip())
-#         except NoSuchElementException:
-#             pass
+login()
+loadPagesAndParse()
+print('done!')
