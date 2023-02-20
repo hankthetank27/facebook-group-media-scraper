@@ -1,5 +1,6 @@
 import os
-import json
+from db import getDB
+from dateutil import parser as dateParser
 from typing import List, Union
 from dotenv import load_dotenv
 from urllib.parse import unquote
@@ -12,16 +13,16 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 
-
+load_dotenv()
 options = Options()
 options.add_argument("--headless")
-# driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
-driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
+# driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 wait = WebDriverWait(driver, 666)
+gt_posts = getDB()['gt_posts']
 
 
 def login() -> None:
-    load_dotenv()
     email = os.getenv('FB_USERNAME')
     password = os.getenv('FB_PASSWORD')
     driver.get('https://facebook.com/')
@@ -48,6 +49,42 @@ def assertNextPageLoading(group_stories_container: WebElement) -> bool:
         return False
 
 
+def parseReacts(reacts: str) -> int:
+    def parse(reacts: List[str], i: int, inName: bool) -> int:
+        if i >= len(reacts):
+            return 0
+        if reacts[i].isdigit():
+            return int(reacts[i]) + parse(reacts, i + 1, False)
+        if reacts[i] == 'and' or reacts[i] == 'others':
+            return parse(reacts, i + 1, False)
+        if inName:
+            return parse(reacts, i + 1, True)
+        else:
+            return 1 + parse(reacts, i + 1, True)
+
+    return parse(reacts.split(' '), 0, False)
+
+
+def parseLink(url: str) -> str:
+    start_trimmed = url[32:]
+    return unquote(start_trimmed[:start_trimmed.find('&h=')])
+
+
+def parseLinkSource(url: str) -> str:
+    subdom_idx = url.find('://') + 3
+    subdir_idx = url.find('/', subdom_idx)
+    site = url[subdom_idx : subdir_idx]
+    if 'youtu' in site:
+        return 'youtube'
+    if 'bandcamp' in site:
+        return 'bandcamp'
+    if 'soundcloud' in site:
+        return 'soundcloud'
+    if 'discogs' in site:
+        return 'discogs'
+    return 'other'
+
+
 def loadPagesAndParse() -> None:
     try:
         group_stories_container = driver.find_element('xpath', '//*[@id="m_group_stories_container"]')
@@ -57,7 +94,7 @@ def loadPagesAndParse() -> None:
         while True:
 
             section_data = retrivePosts(group_stories_container)
-            print(section_data)
+            gt_posts.insert_many(section_data)
 
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             wait.until(lambda _: not assertNextPageLoading(group_stories_container))
@@ -88,9 +125,8 @@ def retrivePosts(group_stories_container: WebElement) -> Union[List[any], None]:
         track_title = lookupXpath(post, './/div/div[2]/section/section/div/div/header/h3/span/span')
         text = lookupXpath(post, './/div/div[1]/div/span/p')
         link = lookupXpath(post, './/div/div[2]/section/a')
-        date = lookupXpath(post, './/div/header/div/div[2]/div/div/div/div[1]/div/a/abbr')
+        date_posted = lookupXpath(post, './/div/header/div/div[2]/div/div/div/div[1]/div/a/abbr')
         reacts = lookupXpath(post, './/footer/div/div[1]/a/div/div[1]/div')
-        # comment_count = lookupXpath(post, './/footer/div/div[1]/a/div/div[2]/span')
 
         post_data = {}
 
@@ -101,47 +137,19 @@ def retrivePosts(group_stories_container: WebElement) -> Union[List[any], None]:
         if text:
             post_data['text'] = text.text
         if link:
-            post_data['link'] = parseLink(link.get_attribute('href'))
-        if date:
-            post_data['date'] = date.text
+            parsed_link = parseLink(link.get_attribute('href'))
+            post_data['link'] = parsed_link
+            post_data['link_source'] = parseLinkSource(parsed_link)
+        if date_posted:
+            post_data['date_posted'] = dateParser.parse(date_posted.text)
         if reacts:
             post_data['reacts'] = parseReacts(reacts.text)
         else:
             post_data['reacts'] = 0
-        # if comment_count:
-        #     post_link = lookupXpath(post, '/html/body/div[1]/div/div[4]/div/div/div[4]/section/article[20]/div/div[1]/a')
-        #     if post_link:
 
         posts_post_postin.append(post_data)
 
     return posts_post_postin
-
-
-def parseReacts(reacts: str) -> int:
-    def parse(reacts: List[str], i: int, inName: bool) -> int:
-        if i >= len(reacts):
-            return 0
-        if reacts[i].isdigit():
-            return int(reacts[i]) + parse(reacts, i + 1, False)
-        if reacts[i] == 'and' or reacts[i] == 'others':
-            return parse(reacts, i + 1, False)
-        if inName:
-            return parse(reacts, i + 1, True)
-        else:
-            return 1 + parse(reacts, i + 1, True)
-
-    return parse(reacts.split(' '), 0, False)
-
-
-def parseLink(url: str) -> str:
-    start_trimmed = url[32:]
-    return unquote(start_trimmed[:start_trimmed.find('&h=')])
-
-
-def writeJson(posts: List[any]) -> None:
-    print('writing posts...')
-    with open('gt_posts.json', 'w') as f:
-        json.dump(posts, f)
 
 
 login()

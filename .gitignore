@@ -1,3 +1,4 @@
 /gt_scraper/.env
 /gt_scraper/gt_posts.json
 /gt_scraper/geckodriver.log
+/gt_scraper/__pycache__
