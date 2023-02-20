@@ -15,9 +15,9 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 options = Options()
 options.add_argument("--headless")
-driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
-# driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
-wait = WebDriverWait(driver, 120)
+# driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
+driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+wait = WebDriverWait(driver, 666)
 
 
 def login() -> None:
@@ -30,7 +30,6 @@ def login() -> None:
     driver.find_element(By.CSS_SELECTOR, '[name="login"]').click()
     driver.get(f'https://m.facebook.com/groups/200453430055131')
     
-
 
 def lookupXpath(parent: WebElement, path: str) -> Union[WebElement, None]:
     try:
@@ -65,7 +64,7 @@ def loadPagesAndParse() -> None:
             new_height = driver.execute_script("return document.body.scrollHeight")
     
             if new_height == last_height:
-                break
+                return
 
             last_height = new_height
             group_stories_container = lookupXpath(group_stories_container, './/*[@id="m_group_stories_container"]')
