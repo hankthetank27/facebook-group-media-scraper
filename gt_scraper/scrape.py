@@ -1,7 +1,10 @@
 import os
 import json
+from typing import List, Union
 from dotenv import load_dotenv
+from urllib.parse import unquote
 from selenium import webdriver
+from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -12,12 +15,12 @@ from webdriver_manager.firefox import GeckoDriverManager
 
 options = Options()
 options.add_argument("--headless")
-# driver =webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
-driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
-wait = WebDriverWait(driver, 10)
+driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
+# driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+wait = WebDriverWait(driver, 120)
 
 
-def login():
+def login() -> None:
     load_dotenv()
     email = os.getenv('FB_USERNAME')
     password = os.getenv('FB_PASSWORD')
@@ -26,24 +29,27 @@ def login():
     driver.find_element('xpath', '//*[@id="pass"]').send_keys(password)
     driver.find_element(By.CSS_SELECTOR, '[name="login"]').click()
     driver.get(f'https://m.facebook.com/groups/200453430055131')
+    
 
 
-def lookupXpath(parent, path):
+def lookupXpath(parent: WebElement, path: str) -> Union[WebElement, None]:
     try:
         return parent.find_element('xpath', path)
     except:
         return None
 
 
-def lookupNextSection(next_section):
+def assertNextPageLoading(group_stories_container: WebElement) -> bool:
+    next_section = lookupXpath(group_stories_container, './div')
     try:
         if not next_section:
-            return None
+            return False
         return next_section.get_attribute('id') == "m_more_item"
     except:
-        None
+        return False
 
-def loadPagesAndParse():
+
+def loadPagesAndParse() -> None:
     try:
         group_stories_container = driver.find_element('xpath', '//*[@id="m_group_stories_container"]')
         last_height = driver.execute_script("return document.body.scrollHeight")
@@ -54,12 +60,8 @@ def loadPagesAndParse():
             section_data = retrivePosts(group_stories_container)
             print(section_data)
 
-            next_section = lookupXpath(group_stories_container, './div')
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-
-            while lookupNextSection(next_section):
-                next_section = lookupXpath(group_stories_container, './div')
-
+            wait.until(lambda _: not assertNextPageLoading(group_stories_container))
             new_height = driver.execute_script("return document.body.scrollHeight")
     
             if new_height == last_height:
@@ -75,8 +77,7 @@ def loadPagesAndParse():
         print(e)
 
 
-def retrivePosts(group_stories_container):
-
+def retrivePosts(group_stories_container: WebElement) -> Union[List[any], None]:
     if not group_stories_container:
         return
 
@@ -101,21 +102,44 @@ def retrivePosts(group_stories_container):
         if text:
             post_data['text'] = text.text
         if link:
-            post_data['link'] = link.get_attribute('href')
+            post_data['link'] = parseLink(link.get_attribute('href'))
         if date:
             post_data['date'] = date.text
         if reacts:
-            post_data['reacts'] = reacts.text
+            post_data['reacts'] = parseReacts(reacts.text)
+        else:
+            post_data['reacts'] = 0
         # if comment_count:
         #     post_link = lookupXpath(post, '/html/body/div[1]/div/div[4]/div/div/div[4]/section/article[20]/div/div[1]/a')
         #     if post_link:
 
         posts_post_postin.append(post_data)
-    
+
     return posts_post_postin
 
 
-def writeJson(posts):
+def parseReacts(reacts: str) -> int:
+    def parse(reacts: List[str], i: int, inName: bool) -> int:
+        if i >= len(reacts):
+            return 0
+        if reacts[i].isdigit():
+            return int(reacts[i]) + parse(reacts, i + 1, False)
+        if reacts[i] == 'and' or reacts[i] == 'others':
+            return parse(reacts, i + 1, False)
+        if inName:
+            return parse(reacts, i + 1, True)
+        else:
+            return 1 + parse(reacts, i + 1, True)
+
+    return parse(reacts.split(' '), 0, False)
+
+
+def parseLink(url: str) -> str:
+    start_trimmed = url[32:]
+    return unquote(start_trimmed[:start_trimmed.find('&h=')])
+
+
+def writeJson(posts: List[any]) -> None:
     print('writing posts...')
     with open('gt_posts.json', 'w') as f:
         json.dump(posts, f)
