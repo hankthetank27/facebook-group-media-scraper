@@ -19,7 +19,7 @@ options.add_argument("--headless")
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
 # driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 wait = WebDriverWait(driver, 666)
-gt_posts = getDB()['gt_posts']
+gt_posts_collection = getDB()['gt_posts']
 
 
 def login() -> None:
@@ -94,7 +94,7 @@ def loadPagesAndParse() -> None:
         while True:
 
             section_data = retrivePosts(group_stories_container)
-            gt_posts.insert_many(section_data)
+            gt_posts_collection.insert_many(section_data)
 
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
             wait.until(lambda _: not assertNextPageLoading(group_stories_container))
