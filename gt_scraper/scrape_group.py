@@ -35,7 +35,8 @@ def login() -> None:
 def lookupXpath(parent: WebElement, path: str) -> Union[WebElement, None]:
     try:
         return parent.find_element('xpath', path)
-    except:
+    except Exception as e:
+        print(e)
         return None
 
 
