@@ -19,25 +19,25 @@ options.add_argument("--headless")
 driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()), options=options)
 # driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 wait = WebDriverWait(driver, 666)
-gt_posts_collection = getDB()['gt_posts']
+gt_posts_collection = getDB()['posts']
 
 
 def login() -> None:
     email = os.getenv('FB_USERNAME')
     password = os.getenv('FB_PASSWORD')
+    group_url = os.getenv(f'GROUP_URL')
     driver.get('https://facebook.com/')
     driver.find_element('xpath', '//*[@id="email"]').send_keys(email)
     driver.find_element('xpath', '//*[@id="pass"]').send_keys(password)
     driver.find_element(By.CSS_SELECTOR, '[name="login"]').click()
-    driver.get(f'https://m.facebook.com/groups/200453430055131')
+    driver.get(group_url)
     
 
 def lookupXpath(parent: WebElement, path: str) -> Union[WebElement, None]:
     try:
         return parent.find_element('xpath', path)
     except Exception as e:
-        print(e)
-        return None
+        return False
 
 
 def assertNextPageLoading(group_stories_container: WebElement) -> bool:
